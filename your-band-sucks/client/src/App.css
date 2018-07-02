@@ -1,0 +1,412 @@
+:root {
+    --black: rgb(51, 51, 51);
+    --white: rgb(255, 255, 255);
+    --blue: rgb(170, 219, 247);
+    --pink: rgb(232, 188, 238);
+    --red: rgb(215, 26, 26);
+    --green: rgb(13, 138, 13);
+    --pink-neon: 0 0 .8vw rgb(255, 255, 255), 0 0 1.5vw rgb(255, 255, 255), 0 0 2.3vw rgb(255, 255, 255), 0 0 3.1vw rgb(232, 188, 238);
+    --blue-neon: 0 0 .8vw rgb(255, 255, 255), 0 0 1.5vw rgb(255, 255, 255), 0 0 3.1vw rgb(202, 236, 255), 0 0 5.5vw #CAECFF;
+}
+
+html {
+    background: rgb(67, 65, 65);
+    min-height: 100vh;
+}
+
+.App, .modal-content, .modal-footer, label {
+    letter-spacing: .1vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sidenav-overlay {
+    z-index: 1;
+}
+
+#nav-mobile, nav, .input-field, .select-dropdown.active, .select-dropdown.active, .chart {
+    background: var(--black);
+}
+
+#nav-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-mobile a {
+    color: var(--blue);
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12vw;
+    font-size: 1.5em;
+}
+
+div#modal_3 {
+    width: 100%;
+}
+
+div.modal-footer {
+    display: flex;
+    justify-content: center;
+    background: var(--black)
+}
+
+.modal-links {
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    box-shadow: none;
+}
+
+.modal-links a {
+    cursor: pointer;
+    background: none;
+    color: rgb(30, 70, 228);
+    padding: 1vw;
+}
+
+ul.right {
+    display: flex;
+}
+
+h1 {
+    font-size: 75%;
+    letter-spacing: .75vw;
+    display: inline;
+    vertical-align: middle;
+}
+
+i, .dropdown-content li span, .btn, small {
+    color: var(--white);
+    text-align: center;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field span {
+    display: none;
+}
+
+.initialized {
+    width: 100% !important;
+}
+
+input.select-dropdown {
+    border-bottom: none !important;
+}
+
+.row.filter {
+    position: sticky;
+    z-index: 1;
+}
+
+.slogan {
+    height: min-content;
+}
+
+.slogan h2, .about h2 {
+    color: var(--blue);
+}
+
+.slogan ul li, .about p,  .slogan h3, .about h3 {
+    color: var(--white)
+}
+
+.slogan h2, .slogan h3, .slogan ul li, a, .about h2, .about h3, .about p, h4 {
+    text-align: center;
+    letter-spacing: .1vw;
+}
+
+.slogan h2, .about h2 {
+    font-size: 2.5em;
+}
+
+.about h3, h4 {
+    font-size: 2em;
+}
+
+
+.slogan ul li, .slogan h3, .about p {
+    font-size: 1.5em;
+    padding: .5vw;
+}
+
+.about {
+    margin: 2vw 8vw;
+}
+
+.dropdown-content li span {
+    text-align: center;
+}
+
+input.select-dropdown {
+    padding: 1vw;
+}
+
+div.select-wrapper {
+    margin: 0vw !important;
+}
+
+.filter.row .col {
+    margin: 0 !important;
+    padding: 0vw !important;
+    z-index: -1;
+}
+
+.main-title1, .main-title2, .main-title3 {
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.main-title1 {
+    padding: 0vw 1vw;
+    color: var(--blue);
+    text-shadow: var(--blue-neon);
+}
+
+.main-title4 {
+    padding-left: .75vw;
+}
+
+.main-title2,
+.main-title3 {
+    color: var(--pink);
+    text-shadow: var(--pink-neon);
+}
+
+.main-title3 {
+    -webkit-animation: flicker 4s infinite;
+}
+
+@-webkit-keyframes flicker {
+    0% {
+        opacity: 0;
+    }
+    9% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .5;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: .5;
+    }
+    25% {
+        opacity: 1;
+    }
+}
+
+.user-form .row {
+    border-radius: 5px;
+    padding: 1vw;
+    width: 100%;
+    background: var(--black);
+}
+
+.user-form .row .col {
+    width: 90%;
+    margin: 14px;
+    border-radius: 5px;
+    background: var(--white);
+}
+
+.load-bar {
+    text-align: center;
+}
+
+.load-bar span {
+    letter-spacing: .5vw;
+}
+
+label {
+    color : var(--black) !important;
+    font-size: 1em !important;
+}
+
+label.active {
+    color: var(--white) !important;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    background: var(--pink);
+    text-shadow: var(--black) .1vw .1vw .1vw;
+    z-index: 0;
+}
+
+.btn i {
+    padding: 0vw 1vw 0vw 0vw;
+}
+
+.button-row {
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn:hover {
+    background: var(--pink); 
+}
+
+.album-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-links .delete {
+    color: var(--red);
+}
+
+.modal-links .edit {
+    color: var(--green);
+}
+
+.error {
+    color: var(--red);
+    text-align: center;
+}
+
+small {
+    position: fixed;
+    bottom: 0;
+    font-size: 1em;
+    padding: .5vw;
+    width: 100vw;
+    background: var(--black);
+    text-align: center;
+}
+
+footer {
+    padding-top: 5vh;
+}
+
+.card {
+    margin: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.album {
+    border-radius: 1%;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    box-shadow:var(--black) .5vw .5vw .5vw;
+}
+
+div.modal-content {
+    width: 100%;
+    height: auto;
+}
+
+div.modal-open {
+    height: 50vh;
+    width: 100vw;
+}
+
+div.modal-content div.row {
+    width: 100%;
+}
+
+.album-modal {
+    height: 50%;
+    width: 50%;
+    margin: 1vw 1vw 1vw .5vw;
+    border-radius: 1%;
+    box-shadow: var(--album-box-shadow);
+}
+
+.album-modal-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0vw auto;
+    padding: 1vw 1vw 1vw .5vw;
+}
+
+.album-modal-container ul li {
+    font-size: 1.25em;
+}
+
+.chart {
+    margin: 5vh auto;
+    border-radius: 1%;
+    height: auto;
+    width: 100%;
+    padding: 1vw;
+}
+
+@media only screen 
+  and (min-device-width: 700px) {
+    .row.filter {
+        top: 62px;
+    }
+
+    .user-form .row {
+        width: 50vw;
+        background-color: var(--black)
+    }
+
+    div#modal_3 {
+        width: 80%;
+    }
+
+    .album-modal-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0vw 2vw; 
+    }
+}
+
+@media only screen 
+  and (max-device-width: 699px) {
+      .row.filter {
+        top: 55px;
+      }
+      .user-form .row {
+          width: 100vw;
+      }
+
+      div#modal_3 {
+        width: 100%;
+    }
+
+    .album-modal {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1590px) {
+      .album {
+        height: 80%;
+        width: 80%;
+      }
+      
+      .chart {
+        height: auto;
+        width: 50vw;
+      }
+}
+
+@media only screen 
+  and (max-device-width: 1589px) {
+      .album {
+        height: 99%;
+        width: 99%;
+      }
+}

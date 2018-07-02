@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://your-band-sucks.firebaseapp.com/",
+    "integrationFolder": "test",
+    "video": false
+}
