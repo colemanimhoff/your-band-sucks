@@ -5,3 +5,5 @@ Look no further - this is the definitive collection of terrible album art! Sign 
 Built with React.js, React Materialize, PostgreSQL, Knex.js, Express, Cypress for End-To-End Testing, as well as Mocha, Chai, and Supertest for the Backend.  Also built with Firebase Authentication.
 
 [Deployed Link](https://your-band-sucks.firebaseapp.com/)
+
+[Video Demo Link](https://www.youtube.com/watch?v=N0EN_VxQV-Y)
