@@ -1,14 +1,31 @@
-## Galvanize Tower
+# Your Band Sucks
 
-In this project, you'll build a full-stack application that has an API, reads and writes data, and uses a library. The topic is up to you!
+## Description
 
-## Requirements
+Look no further - this is the definitive collection of terrible album art! Sign up, log in, and add your own!
 
-* Has an API that can list, read, update, create, and delete data
-* Has a database backing that API that has at least 2 different tables
-* Has a front-end that uses an application framework or component library that:
-    * Consumes your API (list, read, update, create, and delete actions)
-    * Uses some non-trivial (charting, mapping, payment, etc.) library
-    * Has at least 2 end-to-end tests
+## Getting Started
 
-Add a link to your [deployed front-end URL](https://your-band-sucks.firebaseapp.com/), your [deployed back-end url](https://your-band-sucks.herokuapp.com/), and any [code repos you used](https://github.com/colemanimhoff/galvanize-tower/tree/master/drills/version-1)
+1. Click [here](https://your-band-sucks.firebaseapp.com/).
+2. Log in or create an account.
+3. Go to your profile to add, edit, and delete for photos.
+4. Click on the home link to browse all of our bad album covers.
+5. Click on album covers to read more!
+6. Click [here](https://www.youtube.com/watch?v=N0EN_VxQV-Y) for a video demo.
+
+## Technologies
+
+Built with React.js, React Materialize, PostgreSQL, Knex.js, Express, Cypress for End-To-End Testing, as well as Mocha, Chai, and Supertest for the Backend. Also built with Firebase Authentication.
+
+## Links
+
+[Deployed App](https://your-band-sucks.firebaseapp.com/)
+[Database](https://your-band-sucks.herokuapp.com/)
+
+## License 
+
+See MIT license
+
+### Created by Coleman Imhoff
+[LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
+colemanimhoff@gmail.com
