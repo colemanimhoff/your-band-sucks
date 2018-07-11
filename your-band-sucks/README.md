@@ -13,6 +13,8 @@ Look no further - this is the definitive collection of terrible album art! Sign 
 5. Click on album covers to read more!
 6. Click [here](https://www.youtube.com/watch?v=N0EN_VxQV-Y) for a video demo.
 
+![Queue Overflow](your-band-sucks.png "Queue Overflow")
+
 ## Technologies
 
 Built with React.js, React Materialize, PostgreSQL, Knex.js, Express, Cypress for End-To-End Testing, as well as Mocha, Chai, and Supertest for the Backend. Also built with Firebase Authentication.
