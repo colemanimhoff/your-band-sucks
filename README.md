@@ -27,5 +27,5 @@ Built with React.js, React Materialize, PostgreSQL, Knex.js, Express, Cypress fo
 See MIT license
 
 ### Created by Coleman Imhoff
-[LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
-colemanimhoff@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
+- colemanimhoff@gmail.com
